@@ -5,7 +5,7 @@ import java.util.Iterator;
  * @author David Jones and Mason Parry
  * CSIS 2420 - A02: Randomized Queues and Deques
  */
-public class RandomizedQueue implements Iterable<Item> 
+public class RandomizedQueue<Item> implements Iterable<Item> 
 {
 	//construct an empty randomized queue
 	public RandomizedQueue()
