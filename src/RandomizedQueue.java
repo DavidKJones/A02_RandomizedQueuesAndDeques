@@ -150,7 +150,7 @@ public class RandomizedQueue<Item> implements Iterable<Item>
 		@Override
 		public boolean hasNext() 
 		{
-			return i + 1 < count;
+			return i < count;
 		}
 
 		@Override
